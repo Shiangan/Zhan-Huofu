@@ -596,20 +596,22 @@ document.addEventListener("DOMContentLoaded", () => {
 </style>
                 
 
-<div style="padding: 20px; background-color: #f9f9f9; border-radius: 10px; margin-top: 20px;">
-    <h2 style="font-family: '辰魚落雁體'; color: #333; text-align: center;">新北市立殯儀館</h2>
-    <p style="font-size: 16px; font-family: 'Arial', sans-serif; color: #666; text-align: center;">
-        禮堂＆停車資訊
+<div class="transport-info">
+    <h2 class="title">台北市懷愛館（第二殯儀館）</h2>
+    <p class="subtitle">懷恩專車＆停車資訊</p>
 
-        <!-- 專車示意圖（如果需要，可以添加圖片） -->
-    <div style="text-align: center;">
-        <img src="image/page.png" alt="平面圖" style="width: 300px; height: auto; border-radius: 10px;">
+    <!-- 圖片展示 -->
+    <div class="image-gallery">
+        <img src="image/交通00004.GIF" alt="S31" class="gallery-img" aria-label="交通指引">
+        <img src="image/交通00005.GIF" alt="S32" class="gallery-img" aria-label="交通指引">
+        <img src="image/交通00003.GIF" alt="S33" class="gallery-img" aria-label="交通指引">
+        <img src="image/交通00002.GIF" alt="S34" class="gallery-img" aria-label="交通指引">
+        <img src="image/交通00001.GIF" alt="S35" class="gallery-img" aria-label="交通指引">
+        <img src="image/交通00007.JPG" alt="搭車資訊" class="gallery-img" aria-label="搭車資訊">
+        <img src="image/交通00008.JPG" alt="交通指引" class="gallery-img" aria-label="交通指引">
+        <img src="image/交通00009.JPG" alt="指引圖" class="gallery-img" aria-label="指引圖">
+        <img src="image/交通00006.JPG" alt="停車資訊" class="gallery-img" aria-label="停車資訊">
     </div>
-
-           <div style="text-align: center;">
-        <img src="image/影像.jpeg" alt="停車資訊" style="width: 300px; height: auto; border-radius: 10px;">
-    </div>
-        
 </div>
 
 <style>
@@ -686,7 +688,7 @@ document.addEventListener("DOMContentLoaded", () => {
     <div style="max-width: 400px; margin: 0 auto; background: #fff; border-radius: 10px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); padding: 20px; text-align: center; display: flex; align-items: center;">
         <!-- 負責人圖片 -->
         <div style="width: 100px; height: 100px; border-radius: 50%; overflow: hidden; margin-right: 20px;">
-            <img src="image/IMG_8349.jpeg" alt="負責人照片" style="width: 100%; height: 100%; object-fit: cover;">
+            <img src="IMG_8349.jpeg" alt="負責人照片" style="width: 100%; height: 100%; object-fit: cover;">
         </div>
 
         <!-- 文字部分 -->
@@ -710,7 +712,7 @@ document.addEventListener("DOMContentLoaded", () => {
     <!-- 版權信息 -->
     <div class="footer-info">
         <p class="footer-text"><strong>承辦禮儀公司 祥安生命有限公司 ｜ 禮儀師：陳柏元</strong></p>
-        <p class="footer-text"><strong>© 2024 詹火福先生 訃告 | <span class="highlight">祥安生命有限公司</span> 版權所有</strong></p>
+        <p class="footer-text"><strong>© 2024 張文秀先生訃告 | <span class="highlight">祥安生命有限公司</span> 版權所有</strong></p>
     </div>
 </footer>
 
@@ -752,7 +754,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 .footer-text {
     color: #333;
-    font-size: clamp(14px, 1.5vw, 18px);
+    font-size: 14px; /* 默認字體大小 */
     line-height: 1.6;
     margin: 5px 0;
     white-space: nowrap;
@@ -775,8 +777,7 @@ document.addEventListener("DOMContentLoaded", () => {
         font-size: 16px; /* 稍微增大字體，避免過大 */
     }
 }
-</style>
-                
+</style>        
               
 </body>
 </html>
